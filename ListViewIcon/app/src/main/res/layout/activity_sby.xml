@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sby">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView"
+                android:text=" Biografi Susilo Bambang Yudhoyono. Ia biasa disapa SBY. Ia merupakan mantan presiden Indonesia keenam dengan masa pemerintahan selama dua periode atau selama 10 tahun. SBY merupakan presiden pertama Indonesia yang dipilih melalui jalur pemilu sejak era reformasi bergulir. Ia juga merupakan pendiri partai Demokrat yakni salah satu partai yang pernah berkuasa di Indonesia. Sebelum terjun ke dunia politik dan menjadi presiden, ia merupakan mantan jenderal TNI AD. Berikut profil dan biografi dari Susilo Bambang Yudhoyono. Susilo Bambang Yudhoyono atau yang akrab disapa SBY ini lahir di Pacitan, Jawa Timur 9 September 1949. Istrinya bernama Kristiani Herawati atau dikenal dengan nama Ani Yudhoyono. Ia merupakan putri ketiga almarhum Jenderal (Purn) Sarwo Edhi Wibowo. Pensiunan jenderal berbintang empat ini adalah anak tunggal dari pasangan R. Soekotjo dan Sitti Habibah. Darah prajurit menurun dari ayahnya yang pensiun sebagai Letnan Satu. Sementara ibunya, Sitti Habibah, putri salah seorang pendiri Ponpes Tremas.  Dari pernikahannya dengan Ani Yudhoyono, SBY dikaruniai dua orang putra yakni Agus Harimurti Yudhoyono, lulusan terbaik SMA Taruna Nusantara Magelang yang mengikuti dan menyamai jejak dan prestasi SBY di dalam militer.  Agus Harimurti juga lulus dari Akmil tahun 2000 dengan meraih penghargaan Bintang Adhi Makayasa kemudian putra kedua yaitu Edhie Baskoro Yudhoyono yang merupakan lulusan Nanyang Technological University di bidang Ekonomi dan bekecimpung di dunia politik"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="#000000"
+                app:srcCompat="@drawable/sby" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView"
+                android:background="#FFEB3B"
+                android:text="Description"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

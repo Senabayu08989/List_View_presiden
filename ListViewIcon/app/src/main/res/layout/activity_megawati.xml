@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".megawati">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView"
+                android:text="Profil dan Biografi Megawati Soekarnoputri. Ia merupakan salah satu tokoh di Indonesia dan juga anak kedua dari Presiden Pertama Indonesia Ir. Soekarno.  Megawati dikenal sebagai Presiden Indonesia ke 5 menggantikan KH Abdurrahman Wahid atau Gusdur sebagai Presiden. Saat ini, Megawati Soekarnoputri menjabat sebagai Ketua Umum Partai Demokrasi Indonesia Perjuangan (PDIP), salah satu partai terbesar di Indonesia. Bernama Lengkap Diah Permata Megawati Setiawati Soekarnoputri atau akrab di sapa Megawati Soekarnoputri lahir di Yogyakarta, 23 Januari 1947.  Mengenai profil dan biografinya, Megawati adalah putri sulung atau anak kedua dari Presiden RI pertama yang juga proklamator, Ir. Soekarno. Ibunya Fatmawati Soekarno."
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="#000000"
+                app:srcCompat="@drawable/megawati" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView"
+                android:background="#FFEB3B"
+                android:text="Description"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
